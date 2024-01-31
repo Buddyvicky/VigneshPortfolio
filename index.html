@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vignesh Portfolio</title>
+        <link rel="stylesheet" href="pstyle.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Portfolio.</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#internship">Internship</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="#skills_certificates">Skill & Certificates</a></li> 
+            </ul>
+        </div>
+    </nav>
+    <nav id="home-nav">
+        <div class="logo">Vignesh.</div>
+        <div class="home-menu">
+            <div class="home-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links" >
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#internship" onclick="toggleMenu()">Internship</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+            <li><a href="#skills_certificates" onclick="toggleMenu()">Skill & Certificates</a></li>
+        </div>
+    </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section-container1">
+        <img src="./images/Profile.jpg.jpg" alt="Vignesh profile picture" />
+      </div>
+      <div class="section-text">
+        <p class="section-p1">Hi, I'm</p>
+        <h1 class="title">Vignesh</h1>
+        <p class="section-p2">Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./images/Vignesh.pdf.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./images/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vignesh-r-97549a24a'"
+          />
+          <img
+            src="./images/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Buddyvicky'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section-p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section-container1">
+          <img
+          src="#"
+          alt="Profile picture"
+          class="about-pic"/>
+        </div> -->
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+              src="./images/internship.png"
+              alt="internship icon"
+              class="icon"/>
+          <h3>Internship</h3>
+          <p>2 Month <br />Web Development</p>
+        </div>
+        <div class="details-container">
+          <img
+            src="./images/education.png"
+            alt="Education icon"
+            class="icon"
+          />
+          <h3>Education</h3>
+          <p>B.E Computer Science Engineering</p>
+        </div>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+        
+        </p>
+      </div>
+    </div>
+  </div>
+  <img
+  src="./images/arrow.png"
+  alt="Arrow icon"
+  class="icon arrow"
+  onclick="location.href='#internship'"/>
+</section>
+
+<section id="internship">
+  <p class="section-p1">Explore My</p>
+  <h1 class="title">Internship</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Web Development</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="./images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Logritha Technologies</h3>
+              <p>2 Month</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./images/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#projects'"
+  />
+</section>
+
+<section id="projects">
+  <p class="section-p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="#"
+            alt="Project 1"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project One</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Buddyvicky'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Buddyvicky'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./images/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#contact'"
+  />
+</section>
+
+<section id="contact">
+  <p class="section-p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+        src="./images/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:vickyvignesh892521@gmail.com">Vignesh@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="./images/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/vignesh-r-97549a24a">LinkedIn</a></p>
+    </div>
+  </div>
+  <img
+    src="./images/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#skills_certificates'"
+  />
+</section>
+
+
+<section id="skills_certificates">
+  <p class="section-p1">Explore My knowledge</p>
+  <h1 class="title">Skill & Certificates</h1>
+  <div class="experience-details-container">
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img
+          src="./images/skill.png"
+          alt="Skills icon"
+          class="icon"/>
+      <h3>Programming Skills</h3>
+      <p>Python. Java. C/C++.</p>
+    </div>
+    <div class="details-container">
+      <img
+        src="./images/experience.png"
+        alt="Certificates icon"
+        class="icon"
+      />
+      <h3> Certificates</h3>
+      <p>Data Analytics using python</p>
+      <p>Data structure and Algorithm using java</p>
+      </div>
+      <p></p>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contacts</a></li>
+        <li><a href="#skills_certificates">Skill & Certificates</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 Vignesh . All Rights Reserved.</p>
+</footer>
+<script src="pscript.js"></script>
+</body>
+</html>
